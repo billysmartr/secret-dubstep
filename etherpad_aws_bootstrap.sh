@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo yum upgrade -y
-sudo yum install gzip git curl python openssl-devel && sudo yum groupinstall "Development Tools"
+sudo yum install gzip git curl python openssl-devel -y && sudo yum groupinstall "Development Tools" -y
 wget http://nodejs.org/dist/v0.10.36/node-v0.10.36.tar.gz
 tar -xzf node-v0.10.36.tar.gz 
 cd node-v0.10.36
